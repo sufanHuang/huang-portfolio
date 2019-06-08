@@ -80,7 +80,7 @@ const Index = () => (
         </AboutDesc>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Projects-Click Each One to Find Out Details</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App"
