@@ -175,7 +175,9 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Email me at sufanhk@gmail.com or find me on other platforms:{' '}
+            Email:  sufanhk@gmail.com.
+            <br/>
+            Find me on other platforms:{' '}
             <a href="https://github.com/sufanHuang">Github</a> &{' '}
             <a href="https://www.linkedin.com/in/sufan-huang-1829301b/">LinkedIn</a>
           </ContactText>
