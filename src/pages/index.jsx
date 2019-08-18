@@ -63,8 +63,8 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <Avatar src={avatar} alt="sufan" />
-        <BigTitle>
-          <br /> Sufan Huang Des Moines IA
+        <BigTitle> Sufan Huang
+          <h4>Des Moines IA</h4>
         </BigTitle>
         <Subtitle>I am a Full-stack programmer.</Subtitle>
         <hr />
@@ -72,7 +72,7 @@ const Index = () => (
         <AboutDesc>
           <h3>Technologies:</h3>
           <h4>I have used HTML, CSS, Javascript, React and Gatsby for frontend development; Node, express, AWS DynamoDB, S3,API Gateway, SQL, Firebase are used for backend technologies. </h4>
-          <h3>TOOLS:</h3>
+          <h3>Tools:</h3>
           <h4>I have used Git, Github, APIs, Serverless, IntelliJ, Netlify, heroku to develop and deploy apps and websites. </h4>
         </AboutDesc>
       </Hero>
@@ -106,6 +106,20 @@ const Index = () => (
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             An app that allows users to add, modify, delete the books the read, using react, bootstrap, firebase as backend.
+          </ProjectCard>
+          <ProjectCard
+            title="Lunch-Count App"
+            link="https://github.com/sufanHuang/Lunch-Count-App"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            An app that allows users to add, modify, delete numbers of lunch counts, using react, semantic-UI, mySQL is used as backend.
+          </ProjectCard>
+          <ProjectCard
+            title="Swallow-products-fullstack App"
+            link="https://github.com/sufanHuang/swallow-products-fullstack"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            A small business website that displays current products, recipes and about the company pages. It also allows business owen to add, modify delete their products. React, reactstrap are used for frontend. Backend technology includes AWS dynamoDB, S3, API Gateway and serverless.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
