@@ -57,7 +57,6 @@ const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
 `
 
-
 const Index = () => (
   <>
     <Layout />
@@ -65,22 +64,20 @@ const Index = () => (
       <Hero offset={0}>
         <Avatar src={avatar} alt="sufan" />
         <BigTitle>
-          Hello, <br /> My Name is Sufan Huang.
+          <br /> Sufan Huang Des Moines IA
         </BigTitle>
-        <Subtitle>I am a fullStack programmer.</Subtitle>
-        <hr/>
+        <Subtitle>I am a Full-stack programmer.</Subtitle>
+        <hr />
         <Title>Skills</Title>
         <AboutDesc>
-          <h3>FRONTEND:</h3>
-          <h4>HTML CSS Javascript React Gatsby</h4>
-          <h3>BACKEND:</h3>
-          <h4>Node.js Express Serverless SQL Firebase</h4>
-          <h3>OTHERS:</h3>
-          <h4>Git APIs AWS IntelliJ CircleCi</h4>
+          <h3>Technologies:</h3>
+          <h4>I have used HTML, CSS, Javascript, React and Gatsby for frontend development; Node, express, AWS DynamoDB, S3,API Gateway, SQL, Firebase are used for backend technologies. </h4>
+          <h3>TOOLS:</h3>
+          <h4>I have used Git, Github, APIs, Serverless, IntelliJ, Netlify, heroku to develop and deploy apps and websites. </h4>
         </AboutDesc>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects-Click Each One to Find Out Details</Title>
+        <Title>Projects-Click for Details</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Weather App"
@@ -94,7 +91,7 @@ const Index = () => (
             link="https://github.com/sufanHuang/recipe-app"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            This app helps me to solididy my experience with API as well as learning about react-router. I use react/bootstrap/API.
+            This app helps me to solidify my experience with API as well as learning about react-router. I use react/bootstrap/API.
           </ProjectCard>
           <ProjectCard
             title="Todo APP"
@@ -114,7 +111,7 @@ const Index = () => (
       </Projects>
       <About offset={3}>
         <Title>About</Title>
-          <h1 className="text-primary">I HAVE WORKED AS:</h1>
+        <h1 className="text-primary">I HAVE WORKED AS:</h1>
         <AboutDesc>
           <div>
             <div className="card-body">
@@ -122,7 +119,7 @@ const Index = () => (
               <ul>
                 <li>Study programming through Udemy, Freecodecamp, various Youtube channels.</li>
                 <li>Participate in local tech meet ups.</li>
-                <li>Communicate with small business owners to build websites.</li>
+                <li>Develop and deploy apps and websites using latest technologies.</li>
               </ul>
               <h6 className="text-primary">Teacher- Des Moines Public School District (2012-2018)</h6>
               <ul>
@@ -149,7 +146,7 @@ const Index = () => (
             </div>
           </div>
         </AboutDesc>
-          <hr/>
+        <hr />
         <AboutHero>
           <h1>EDUCATION</h1>
         </AboutHero>
@@ -160,7 +157,7 @@ const Index = () => (
             <li>BA in English - Shenzhen University, China  2008  </li>
           </ul>
         </AboutDesc>
-        <hr/>
+        <hr />
         <AboutHero>
           <h1>HONORS</h1>
         </AboutHero>
