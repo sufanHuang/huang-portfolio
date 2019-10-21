@@ -71,9 +71,9 @@ const Index = () => (
         <Title>Skills</Title>
         <AboutDesc>
           <h3>Technologies:</h3>
-          <h4>I have used HTML, CSS, Javascript, React and Gatsby for frontend development; Node, express, AWS DynamoDB, S3,API Gateway, SQL, Firebase are used for backend technologies. </h4>
+          <h4>HTML, CSS, Javascript, React and Gatsby for frontend development; Node, express, AWS DynamoDB, S3, API Gateway, SQL for backend technologies. </h4>
           <h3>Tools:</h3>
-          <h4>I have used Git, Github, APIs, Serverless, IntelliJ, Netlify, heroku to develop and deploy apps and websites. </h4>
+          <h4>Git, Github, APIs, Serverless, IntelliJ, Netlify, Heroku CircleCi to develop and deploy apps and websites. </h4>
         </AboutDesc>
       </Hero>
       <Projects offset={1}>
@@ -84,14 +84,14 @@ const Index = () => (
             link="https://github.com/sufanHuang/weather-react-app"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This is my first project to learn about retrieving data from APIs. I use react/bootstrap/weather APIs.
+            This is my first project to learn about retrieving data from APIs. I used react/bootstrap/weather APIs.
           </ProjectCard>
           <ProjectCard
             title="Recipe Search"
             link="https://github.com/sufanHuang/recipe-app"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            This app helps me to solidify my experience with API as well as learning about react-router. I use react/bootstrap/API.
+            This app helps me to solidify my experience with API as well as learning about react-router. I used react/bootstrap/API.
           </ProjectCard>
           <ProjectCard
             title="Todo APP"
@@ -129,11 +129,12 @@ const Index = () => (
         <AboutDesc>
           <div>
             <div className="card-body">
-              <h6 className="text-primary">Self Taught Programmer (2018-present)</h6>
+              <h6 className="text-primary">Full-Stack Developer (2018-present)</h6>
               <ul>
-                <li>Study programming through Udemy, Freecodecamp, various Youtube channels.</li>
-                <li>Participate in local tech meet ups.</li>
-                <li>Develop and deploy apps and websites using latest technologies.</li>
+                <li>Study programming close to 2000 hours through Udemy, Freecodecamp, various Youtube channels.</li>
+                <li>Develop web apps from beginning to deployment.</li>
+                <li>Research new technologies for use in projects.</li>
+                <li>Keep abreast of emerging technologies, software and trends and project applications.</li>
               </ul>
               <h6 className="text-primary">Teacher- Des Moines Public School District (2012-2018)</h6>
               <ul>
@@ -166,7 +167,7 @@ const Index = () => (
         </AboutHero>
         <AboutDesc>
           <ul>
-            <li>Iowa and Kansas K-12 Teaching License (Math/ESL/Chinese)  2012 </li>
+            <li>AWS Cloud Practitioner Certification  2019/9 </li>
             <li> MA in Education   - University of Kansas  2010</li>
             <li>BA in English - Shenzhen University, China  2008  </li>
           </ul>
